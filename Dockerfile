@@ -9,5 +9,8 @@ RUN apt-get update -y && apt-get install -y \
     default-jdk \
     git \
     libnss-sss \
+    python-pip \
     vim
 
+RUN pip install --upgrade pip
+RUN pip install cwltool
