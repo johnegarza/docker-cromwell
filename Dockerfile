@@ -7,6 +7,7 @@ LABEL \
 RUN apt-get update -y && apt-get install -y \
     apt-utils \
     default-jdk \
+    curl \
     git \
     libnss-sss \
     python-pip \
