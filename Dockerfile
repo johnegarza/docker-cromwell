@@ -15,6 +15,7 @@ RUN apt-get update -y && apt-get install -y \
 
 RUN pip install --upgrade pip
 RUN pip install pyyaml
+RUN pip install unidecode
 RUN pip install 'setuptools>=18.5'
 RUN pip install cwltool
 RUN pip install 'ruamel.yaml==0.14.2'
